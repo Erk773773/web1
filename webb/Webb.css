@@ -1,0 +1,39 @@
+body {
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.webbhistoria{
+    text-align: center;
+    font-size: 70px;
+    margin: 0px;
+    
+}
+.www{
+    margin: 60px;
+    margin-bottom: 3px;
+
+}
+
+.textwww{
+    margin: 60px;
+    font-size: 23px;
+    margin-top: 5px;
+    margin-bottom: 35px;
+}
+.titel1{
+    margin: 50px;
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.länk{
+    position: absolute;
+    right: 17px;
+}
+.h2{
+margin: 0px;
+font-size: 24px;
+margin-top: 0px;
+}
