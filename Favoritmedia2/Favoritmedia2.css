@@ -1,0 +1,48 @@
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-items: center;
+    gap: 60px;
+
+} 
+.grid a button {
+    margin-top:10px;
+    width: 100%;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+.button:hover {
+    background-color: #4404da;
+    color: white;
+}
+body{
+    background-color: #3d0bf3;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.button {
+    border-radius: 10px;
+    border-style: initial;
+    font-size: 30px;
+    outline: blue;
+}
+.hr{
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+    background-color:rgb(45, 7, 161);
+    height: 20px;
+  }
+ .bild{
+    border-radius: 10px;
+    border-style: initial;
+    width: 50%;
+    margin-left: 305px;
+    margin-top: 100px;
+ }
+ .ankabild{
+    border-style: initial;
+    width: 30%;
+    margin-left: 18px;
+ }
+ 
