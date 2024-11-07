@@ -60,7 +60,15 @@ margin-top: -4%;
 .button{
     color: black;
     background-color:white;
-border-radius: 17%;
+border-radius: 20px;
 border-color: cornflowerblue;
 border-style: initial;
+}
+.hr{
+    border-width: 0.1cm;
+}
+
+.button:hover {
+    background-color: grey;
+    color: white;
 }

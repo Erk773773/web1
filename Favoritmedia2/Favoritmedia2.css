@@ -1,8 +1,8 @@
 .grid {
     display: grid;
     grid-template-columns: auto auto auto;
-    justify-items: center;
-    gap: 60px;
+    column-gap: 80px;
+    row-gap: 20px;
 
 } 
 .grid a button {
@@ -16,23 +16,34 @@
     color: white;
 }
 body{
-    background-color: #3d0bf3;
+    background-color: rgb(33, 32, 32);
     background-repeat: no-repeat;
     background-size: cover;
+    margin: 1%;
+    margin-top: 20px;
 }
 .button {
     border-radius: 10px;
     border-style: initial;
     font-size: 30px;
     outline: blue;
+    
 }
 .hr{
     border-radius: 10px;
     border: none;
-    margin-top: 10px;
+    margin-top: 600px;
     background-color:rgb(45, 7, 161);
     height: 20px;
   }
+.hr2{
+    border-radius: 10px;
+    border: none;
+    background-color:rgb(45, 7, 161);
+    height: 20px;
+}
+    
+
  .bild{
     border-radius: 10px;
     border-style: initial;
@@ -45,4 +56,15 @@ body{
     width: 30%;
     margin-left: 18px;
  }
- 
+
+ head{
+    border-radius:20px;
+background-color: white;
+}
+main{
+    margin-top: -10px;
+    margin-bottom: -10px;
+    background-color: cornflowerblue;
+    border-radius: 25px;
+    
+}

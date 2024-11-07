@@ -1,9 +1,11 @@
 .grid {
     display: grid;
     grid-template-columns: auto auto auto;
-    justify-items: center;
+   justify-items: center;
+    row-gap: 50px;
+    margin-top: 60px;
 
-}
+} 
 
 .grid a button {
     margin-top: 10px;
@@ -50,5 +52,5 @@ body {
     object-fit: cover;
     width: 70%;
     height: 200px;
-    margin-top: 50px;
+    
 }
