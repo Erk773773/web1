@@ -30,14 +30,14 @@ body{
     
 }
 .hr{
-    border-radius: 10px;
+    border-radius: 0px 0px 10px 10px;
     border: none;
     margin-top: 600px;
     background-color:rgb(45, 7, 161);
     height: 20px;
   }
 .hr2{
-    border-radius: 10px;
+    border-radius: 10px 10px 0px 0px;
     border: none;
     background-color:rgb(45, 7, 161);
     height: 20px;
@@ -50,11 +50,6 @@ body{
     width: 50%;
     margin-left: 305px;
     margin-top: 100px;
- }
- .ankabild{
-    border-style: initial;
-    width: 30%;
-    margin-left: 18px;
  }
 
  head{
