@@ -140,12 +140,12 @@ body{
 
 .container {
   width: 100%;
-  min-height: 90vh;
-  display: flex;
-  justify-content: center;
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: auto auto auto auto ;
+  justify-items: center;
   align-items: center;
-  flex-wrap: wrap;
-  gap: 160px;
+  gap: 70px;
 }
 
 .button {
@@ -209,11 +209,6 @@ body{
   transition-delay: 0s;
 }
 
-.button span:nth-child(1),
-.button span:nth-child(3) {
-  width: 40px;
-  height: 4px;
-}
 
 .button:hover span:nth-child(1),
 .button:hover span:nth-child(3) {
