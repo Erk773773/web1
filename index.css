@@ -184,7 +184,7 @@ body{
 
 .button:hover::before {
   transform: scale(1);
-  transition-delay: 0.5s;
+  transition-delay: 0.25s;
   box-shadow: 0 0 10px var(--color),
     0 0 30px var(--color),
     0 0 60px var(--color);
@@ -201,7 +201,7 @@ body{
     0 0 50px var(--color),
     0 0 100px var(--color);
   transition: 0.5s ease-in-out;
-  transition-delay: 0.25s;
+  transition-delay: 0.10s;
 }
 
 .button:hover span {
