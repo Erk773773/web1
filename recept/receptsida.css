@@ -1,14 +1,13 @@
 body {
     padding: 5em;
     background-color: rgb(33, 32, 32);
-    grid-template-rows: auto auto;
 }
 
 .grid {
     display: grid;
     grid-template-columns: auto auto;
     width: 100%;
-    column-gap: 40px;
+    column-gap: 8%;
 }
 
 .grid div {
@@ -107,4 +106,32 @@ body {
     height: 5px;
     background-color: rgb(33, 32, 32);
     border-radius: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    .checkbox-wrapper-40{
+        margin-left: 0%;
+        margin-right: 0%;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    .checkbox-wrapper-40 label{
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+
+    .grid {
+        grid-template-columns: auto;
+        row-gap: 3%;
+       
+    }
+
+    .grid div {
+        padding-left: 2%;
+        padding-right: 2%;
+        margin-left: -30px;
+        margin-right: -30px;
+
+    }
 }
