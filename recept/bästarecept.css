@@ -16,6 +16,12 @@ body {
   justify-items: center;
 }
 
+.grid div img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 img {
   border-radius: 10px;
   width: 70%;
@@ -63,4 +69,21 @@ a:hover {
 
 a:hover:after {
   width: 100%;
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+  img {
+    border-radius: 10px;
+    width: 100%;
+  }
+
+  .grid {
+  grid-template-columns: auto;
+
+  }
+  
 }
