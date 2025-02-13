@@ -1,8 +1,5 @@
-
-
-
 header {
-    color:#ffffff;
+    color: #ffffff;
     padding-top: 6 0;
     background-color: #003049;
     text-align: center;
@@ -19,7 +16,7 @@ header h1 {
 
 header p {
     margin-top: 0px;
-    padding-bottom:20px;
+    padding-bottom: 20px;
 }
 
 body {
@@ -42,7 +39,7 @@ body {
     font-size: 25px;
     color: rgb(60, 9, 212);
     display: block;
-    background-color:white;
+    background-color: white;
 }
 
 .sidenav a:hover {
@@ -50,39 +47,35 @@ body {
 }
 
 
-body{
+body {
     background-color: #248fc9;
 }
-
-section {
-
-}
-
 
 .article {
     padding: 20px;
     margin-bottom: 20px;
     box-shadow: 0 4px 6px;
     position: relative;
-  }
+
+}
 
 
 .row:after {
     content: "";
     display: table;
     clear: both;
-    
-  }
 
-  .footer {
+}
+
+.footer {
     padding: 20px;
     text-align: center;
     background: #ddd;
     margin-top: 20px;
-  }
+}
 
 
-  * {
+* {
     box-sizing: border-box;
 }
 
@@ -98,36 +91,39 @@ body {
 }
 
 .card {
-    background-color: white ;
+    background-color: white;
     padding: 20px;
     margin-top: 20px;
     width: 70%;
     margin-left: 28%;
-   
+
 }
 
 
 
 .footer {
     text-align: center;
-    background-color:#024d76;
+    background-color: #024d76;
     margin-top: 30px;
 }
 
 @media only screen and (max-width: 600px) {
-    .sidenav a{
-      display: none;
-    }
-    .sidenav{
+    .sidenav a {
         display: none;
     }
+
+    .sidenav {
+        display: none;
+    }
+
     .card {
         margin: 0%;
         width: 100%;
     }
-    .img{
+
+    .img {
         width: 100%;
     }
-        
+
 
 }
