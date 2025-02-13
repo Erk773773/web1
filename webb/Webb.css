@@ -76,3 +76,9 @@ head {
     background-color: grey;
     color: white;
 }
+
+@media only screen and (max-width: 600px) {
+   button{
+font-size: large;
+   }
+}
