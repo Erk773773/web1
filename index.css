@@ -66,33 +66,21 @@ a:hover:after {
 @media only screen and (max-width: 600px) {
 
   .grid {
-  grid-template-columns: auto    ;
+    grid-template-columns: auto;
 
   }
-  
-  .h1{
-   
+
+  .h1 {
     margin-left: 20px;
     margin-right: 20px;
-    margin-bottom: 60px;
+    margin-bottom: 45px;
     margin-top: 40px;
 
 
   }
 
-  a{
-  margin-bottom: 7.6%;
+  a {
+    margin-bottom: 7.6%;
 
   }
 }
-
-
-
-
-
-
-
-
-
-
-
