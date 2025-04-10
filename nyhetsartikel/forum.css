@@ -20,6 +20,7 @@ h2 {
 
 p {
     margin-left: 2%;
+    font-size: larger;
 }
 
 header h1 {
@@ -32,7 +33,7 @@ header h1 {
 header p {
     margin-top: 0%;
     padding-bottom: 2%;
-}
+}   
 
 body {
     margin: 0%;
@@ -40,14 +41,10 @@ body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-main {
-    display: flex;
-    flex-direction: column;
-    row-gap: 5%;
-}
 
 
 footer {
+    padding: 10px;
     text-align: center;
     background-color: #024d76;
 
@@ -59,10 +56,10 @@ body {
 }
 
 
-img {
-    
+img{
+    width: 40%;
+    margin-left: 2%;
 }
-
 
 .section {
     background-color: white;
@@ -75,47 +72,8 @@ img {
 
 
 
-
-
-
-.button span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-
-.button span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
-
-.button:hover span {
-  padding-right: 25px;
-}
-
-.button:hover span:after {
-  opacity: 1;
-  right: 0;
-}
-
-
-
 @media only screen and (max-width: 600px) {
 
-
-    .section {
-        margin: 0%;
-        width: 100%;
-    }
-
-    .img {
-        width: 100%;
-    }
 
 
 }
