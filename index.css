@@ -10,6 +10,7 @@
 
 body {
   background-color: rgb(33, 32, 32);
+  font-family: customfont, arial, helvetica, sans-serif;
 }
 
 .grid {
