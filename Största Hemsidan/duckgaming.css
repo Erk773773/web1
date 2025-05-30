@@ -129,7 +129,7 @@ kod för knapparna
 
 
 .grid2 {
-    grid-template-columns: auto auto auto ;
+    grid-template-columns: auto auto auto;
     display: grid;
     margin-bottom: 1%;
     position: relative;
@@ -149,51 +149,66 @@ kod för knapparna
 }
 
 .button1 {
+    text-decoration: none;
     position: absolute;
     top: 85%;
     left: 10%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: #555;
+    background-color: #2ecc71;
     color: white;
-    font-size: 16px;
-    padding: 12px 24px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 14px 28px;
     border: none;
-    cursor: pointer;
-    border-radius: 5px;
+    border-radius: 6px;
+    font-size: 16px;
+    display: inline-block;
     text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 .button2 {
+    text-decoration: none;
     position: absolute;
     top: 85%;
     left: 45%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: #555;
+    background-color: #2ecc71;
     color: white;
-    font-size: 16px;
-    padding: 12px 24px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 14px 28px;
     border: none;
-    cursor: pointer;
-    border-radius: 5px;
+    border-radius: 6px;
+    font-size: 16px;
+    display: inline-block;
     text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 .button3 {
+    text-decoration: none;
     position: absolute;
     top: 85%;
     left: 79%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: #555;
+    background-color: #2ecc71;
     color: white;
-    font-size: 16px;
-    padding: 12px 24px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 14px 28px;
     border: none;
-    cursor: pointer;
-    border-radius: 5px;
+    border-radius: 6px;
+    font-size: 16px;
+    display: inline-block;
     text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 

@@ -111,7 +111,7 @@ kod för knapparna
 /*/
 
 .grid2 {
-    grid-template-columns: auto auto auto ;
+    grid-template-columns: auto auto auto;
     display: grid;
     margin-bottom: 1%;
 }
@@ -157,6 +157,8 @@ kod för knapparna
     text-align: center;
     padding: 15px;
     transition: transform 0.2s ease;
+    text-decoration: none;
+
 }
 
 .produkt:hover {
@@ -174,6 +176,8 @@ kod för knapparna
     font-size: 16px;
     margin: 10px 0 5px;
     color: #333;
+    text-decoration: none;
+
 }
 
 .pris {
@@ -181,6 +185,7 @@ kod för knapparna
     font-weight: bold;
     color: #e60012;
     margin: 5px 0 15px;
+    text-decoration: none;
 }
 
 .kop-knapp {
